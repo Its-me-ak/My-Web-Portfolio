@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600&family=IBM+Plex+Sans:wght@300;400&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrp -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <!-- header -->
+    <div class="container-fluid">
+      <div class="row">
+        <!-- nav -->
+        <nav class="navbar">
+          <div class="container">
+            <label>
+              <input type="checkbox" />
+              <span class="menu"> <span class="hamburger"></span> </span>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </label>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="project-main-bg">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-12">
+            <div class="service-heading d-flex align-items-center flex-column">
+              <h1 class="title">works</h1>
+              <h2>my <span>work</span></h2>
+            </div>
+          </div>
+
+          <!-- project menu -->
+          <div class="row d-flex justify-content-center mb-5">
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+              <div class="project-menu">
+                <ul class="d-flex justify-content-between">
+                  <li class="list active" data-filter="all">All</li>
+                  <li class="list" data-filter="html-css">HTML</li>
+                  <li class="list" data-filter="Javascript">JavaScript</li>
+                  <li class="list" data-filter="bootstrap">Bootstrap</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- project card -->
+          <!-- project1 -->
+          <div class="row">
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 g-5 filter-gallary Javascript"
+            >
+              <div
+                class="project-wrap img d-flex align-items-end"
+                style="background-image: url(./img/p1.png)"
+              >
+                <div class="project-text">
+                  <span>JavaScript</span>
+                  <h3>
+                    <a href="/Digital Clock/digital_clock2.html" target="_blank"
+                      >digital clock</a
+                    >
+                  </h3>
+                  <a
+                    href="/Digital Clock/digital_clock2.html"
+                    target="_blank"
+                    class="icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- project2 -->
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 g-5 filter-gallary Javascript"
+            >
+              <div
+                class="project-wrap img d-flex align-items-end"
+                style="background-image: url(./img/p3.png)"
+              >
+                <div class="project-text">
+                  <span>JavaScript</span>
+                  <h3>
+                    <a href="/CRUD/studentRecord.html" target="_blank"
+                      >student crud</a
+                    >
+                  </h3>
+                  <a
+                    href="/CRUD/studentRecord.html"
+                    target="_blank"
+                    class="icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- project3 -->
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 g-5 filter-gallary html-css"
+            >
+              <div
+                class="project-wrap img d-flex align-items-end"
+                style="background-image: url(./img/p4.png)"
+              >
+                <div class="project-text">
+                  <span>html/css</span>
+                  <h3>
+                    <a href="/CRUD/studentRecord.html" target="_blank"
+                      >cafena website</a
+                    >
+                  </h3>
+                  <a
+                    href="/CRUD/studentRecord.html"
+                    target="_blank"
+                    class="icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 4 -->
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 g-5 filter-gallary Javascript"
+            >
+              <div
+                class="project-wrap img d-flex align-items-end"
+                style="background-image: url(./img/p2.png)"
+              >
+                <div class="project-text">
+                  <span>JavaScript</span>
+                  <h3>
+                    <a href="/Calculator/calc.html" target="_blank"
+                      >calculator</a
+                    >
+                  </h3>
+                  <a
+                    href="/Calculator/calc.html"
+                    target="_blank"
+                    class="icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 5 -->
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 g-5 filter-gallary html-css"
+            >
+              <div
+                class="project-wrap img d-flex align-items-end"
+                style="background-image: url(./img/p5.png)"
+              >
+                <div class="project-text">
+                  <span>html/css</span>
+                  <h3>
+                    <a href="/Cloux - Game Website/index.html" target="_blank"
+                      >gaming template</a
+                    >
+                  </h3>
+                  <a
+                    href="/Cloux - Game Website/index.html"
+                    target="_blank"
+                    class="icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 6 -->
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 g-5 filter-gallary Javascript"
+            >
+              <div
+                class="project-wrap img d-flex align-items-end"
+                style="background-image: url(./img/p6.png)"
+              >
+                <div class="project-text">
+                  <span>JavaScript</span>
+                  <h3>
+                    <a href="/Stopwatch/stopwatch.html" target="_blank"
+                      >stopwatch</a
+                    >
+                  </h3>
+                  <a
+                    href="/Stopwatch/stopwatch.html"
+                    target="_blank"
+                    class="icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 7 -->
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 g-5 filter-gallary html-css"
+            >
+              <div
+                class="project-wrap img d-flex align-items-end"
+                style="background-image: url(./img/p7.png)"
+              >
+                <div class="project-text">
+                  <span>html/css</span>
+                  <h3>
+                    <a href="/BAUEN Website/index.html" target="_blank"
+                      >BUAEN website</a
+                    >
+                  </h3>
+                  <a
+                    href="/BAUEN Website/index.html"
+                    target="_blank"
+                    class="icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 8 -->
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 g-5 filter-gallary Javascript"
+            >
+              <div
+                class="project-wrap img d-flex align-items-end"
+                style="background-image: url(./img/p8.png)"
+              >
+                <div class="project-text">
+                  <span>JavaScript</span>
+                  <h3>
+                    <a href="/Tip Calculator/tip_cal.html" target="_blank"
+                      >tip calculator</a
+                    >
+                  </h3>
+                  <a
+                    href="/Tip Calculator/tip_cal.html"
+                    target="_blank"
+                    class="icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 9 -->
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 g-5 filter-gallary html-css"
+            >
+              <div
+                class="project-wrap img d-flex align-items-end"
+                style="background-image: url(./img/p9.png)"
+              >
+                <div class="project-text">
+                  <span>html/css</span>
+                  <h3>
+                    <a href="/Fam Photography/index.html" target="_blank"
+                      >fam photography</a
+                    >
+                  </h3>
+                  <a
+                    href="/Fam Photography/index.html"
+                    target="_blank"
+                    class="icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 10 -->
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 g-5 filter-gallary bootstrap"
+            >
+              <div
+                class="project-wrap img d-flex align-items-end"
+                style="background-image: url(./img/p10.png)"
+              >
+                <div class="project-text">
+                  <span>bootstrap</span>
+                  <h3>
+                    <a href="/The Cappa/index.html" target="_blank"
+                      >The cappa</a
+                    >
+                  </h3>
+                  <a
+                    href="/The Cappa/index.html"
+                    target="_blank"
+                    class="icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 11 -->
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 g-5 filter-gallary Javascript"
+            >
+              <div
+                class="project-wrap img d-flex align-items-end"
+                style="background-image: url(./img/p11.png)"
+              >
+                <div class="project-text">
+                  <span>JavaScript</span>
+                  <h3>
+                    <a href="/Countdown/countdown.html" target="_blank"
+                      >countdown</a
+                    >
+                  </h3>
+                  <a
+                    href="/Countdown/countdown.html"
+                    target="_blank"
+                    class="icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 12 -->
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 g-5 filter-gallary Javascript"
+            >
+              <div
+                class="project-wrap img d-flex align-items-end"
+                style="background-image: url(./img/p12.png)"
+              >
+                <div class="project-text">
+                  <span>JavaScript</span>
+                  <h3>
+                    <a href="/Counter/counter.html" target="_blank">counter</a>
+                  </h3>
+                  <a
+                    href="/Counter/counter.html"
+                    target="_blank"
+                    class="icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 13 -->
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 g-5 filter-gallary Javascript"
+            >
+              <div
+                class="project-wrap img d-flex align-items-end"
+                style="background-image: url(./img/p13.png)"
+              >
+                <div class="project-text">
+                  <span>JavaScript</span>
+                  <h3>
+                    <a href="/Form Val Onkeyup/formVal.html" target="_blank"
+                      >form validation</a
+                    >
+                  </h3>
+                  <a
+                    href="/Form Val Onkeyup/formVal.html"
+                    target="_blank"
+                    class="icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 14 -->
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 g-5 filter-gallary Javascript"
+            >
+              <div
+                class="project-wrap img d-flex align-items-end"
+                style="background-image: url(./img/p14.png)"
+              >
+                <div class="project-text">
+                  <span>JavaScript</span>
+                  <h3>
+                    <a href="/Image Carousel/img-carousel.html" target="_blank"
+                      >image slider</a
+                    >
+                  </h3>
+                  <a
+                    href="/Image Carousel/img-carousel.html"
+                    target="_blank"
+                    class="icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 15 -->
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 g-5 filter-gallary Javascript"
+            >
+              <div
+                class="project-wrap img d-flex align-items-end"
+                style="background-image: url(./img/p15.png)"
+              >
+                <div class="project-text">
+                  <span>JavaScript</span>
+                  <h3>
+                    <a href="/onscroll Event/BulkApp/index.html" target="_blank"
+                      >onscroll event</a
+                    >
+                  </h3>
+                  <a
+                    href="/onscroll Event/BulkApp/index.html"
+                    target="_blank"
+                    class="icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 16 -->
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 g-5 filter-gallary Javascript"
+            >
+              <div
+                class="project-wrap img d-flex align-items-end"
+                style="background-image: url(./img/p16.png)"
+              >
+                <div class="project-text">
+                  <span>JavaScript</span>
+                  <h3>
+                    <a href="/Color Changer/mathRandom.html" target="_blank"
+                      >color switcher</a
+                    >
+                  </h3>
+                  <a
+                    href="/Color Changer/mathRandom.html"
+                    target="_blank"
+                    class="icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 17 -->
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 g-5 filter-gallary bootstrap"
+            >
+              <div
+                class="project-wrap img d-flex align-items-end"
+                style="background-image: url(./img/p8.png)"
+              >
+                <div class="project-text">
+                  <span>bootstrap</span>
+                  <h3>
+                    <a href="/Tip Calculator/tip_cal.html" target="_blank"
+                      >sprystore website</a
+                    >
+                  </h3>
+                  <a
+                    href="/Tip Calculator/tip_cal.html"
+                    target="_blank"
+                    class="icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- project 18 -->
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 g-5 filter-gallary html-css"
+            >
+              <div
+                class="project-wrap img d-flex align-items-end"
+                style="background-image: url(./img/p18.png)"
+              >
+                <div class="project-text">
+                  <span>html/css</span>
+                  <h3>
+                    <a href="/portfolio website/index.html" target="_blank"
+                      >portfolio template</a
+                    >
+                  </h3>
+                  <a
+                    href="/portfolio website/index.html"
+                    target="_blank"
+                    class="icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    // filter gallary
+    $(document).ready(function () {
+      $(".list").click(function () {
+        const value = $(this).attr("data-filter");
+        if (value == "all") {
+          $(".filter-gallary").show();
+        } else {
+          $(".filter-gallary")
+            .not("." + value)
+            .hide();
+          $(".filter-gallary")
+            .filter("." + value)
+            .show();
+        }
+      });
+      $(".list").click(function () {
+        $(this).addClass("active").siblings().removeClass("active");
+      });
+    });
+  </script>
+</html>
